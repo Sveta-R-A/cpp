@@ -120,13 +120,12 @@ class Program
         int cols, rows;
         double scalar;
         Console.WriteLine("Введіть к-сть рядків:");
-       // rows=int.Parse(Console.ReadLine());
+       
         rows = perevirka();
         Console.WriteLine("Введіть к-сть стовпців:");
-      //  cols = int.Parse(Console.ReadLine());
+     
         cols = perevirka();
-        //Console.WriteLine(rows);
-        //Console.WriteLine(cols);
+       
         Array mas = new Array(rows, cols);
         mas.input();
         Console.WriteLine();
@@ -149,4 +148,5 @@ class Program
         mas.plusScalar(scalar);
         mas.output();
     }
+
 }
