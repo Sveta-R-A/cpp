@@ -130,7 +130,11 @@
     <ClCompile Include="P1.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header.h" />
+    <ClInclude Include="D1.h" />
+    <ClInclude Include="D2.h" />
+    <ClInclude Include="D3_D1.h" />
+    <ClInclude Include="D4.h" />
+    <ClInclude Include="B.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
